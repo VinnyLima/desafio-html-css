@@ -1,9 +1,17 @@
+
+/* Evite estilizar o elemento html fora de uma class
+fazendo isso você poderá estilizar todos os elementos da pagina, a não ser que você queira essa mesma estilização para todos os elementos, com 
+isso todos irão herdar a estilização global  */
+*/
 h1{
     color:aliceblue;
     margin:0px 0px 0px 199px;
     
 }
 
+/* Evite estilizar o elemento html fora de uma class
+fazendo isso você poderá estilizar todos os elementos da pagina, a não ser que você queira essa mesma estilização para todos os elementos, com 
+isso todos irão herdar a estilização global  */
 h3{
     
     color: aliceblue;
@@ -32,6 +40,8 @@ header{
         box-sizing: border-box;
         
 }
+/* Evite utilizar pocicionamento absoluto, use com moderação e em casos estremos, utilize sempre display:flex ou grid! isso lhe ajudara a deixar
+suas telas mais responsivas */
 nav{
     position: absolute;
     top:0px;
@@ -79,7 +89,6 @@ nav img{
 
 
 .topicos h2{
-  
     
     font-size: 18px;    
     padding-bottom: 75px;      

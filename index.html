@@ -5,48 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio HTML CSS</title>
-    
+    <!-- a importação deveria vir de uma subpasta do projeto, lembre-se sempre de colocar os arquivos
+        de forma organida no projeto, isso lhe trará clareza ao buscar algo. -->
     <link rel="stylesheet" href="style.css">
-</head>
+  </head>
   <body>
     <header>
-        <div class="caixa">
-                    <h3>Circle Site</h3>
-                    <h1>Sua ideia no Circle</h1>
-                <nav>
-                    <ul>
-                        <li><a href="https://www.google.com.br">Inicio</a></li>
-                        <li><a href="https://www.google.com.br">Sobre</a></li>
-                        <li><a href="https://www.google.com.br">Serviço</a></li>
-                        <li><a href="https://www.google.com.br">Contatos</a></li>
-                        <li><img src="png.face.png"></li>
-                        <li><img src="png.instagran.png"></li>
-                     </ul>
-                </nav>
-        </div>
-        
-        
+      <!-- Semantica quase correta, você conseguiu expressar bem o conteudo do header, mas acabou pecando na estilização, a mesma 
+      deveria seguir a semantica idealizada na imagem do figma, você pode acaompanhar as melhorias propostas na branch feature/PL/teste-html-css -->
+      <div class="caixa">
+        <h3>Circle Site</h3>
+        <h1>Sua ideia no Circle</h1>
+        <nav>
+          <ul>
+            <li><a href="https://www.google.com.br">Inicio</a></li>
+            <li><a href="https://www.google.com.br">Sobre</a></li>
+            <li><a href="https://www.google.com.br">Serviço</a></li>
+            <li><a href="https://www.google.com.br">Contatos</a></li>
+            <li><img src="png.face.png"></li>
+            <li><img src="png.instagran.png"></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <!-- Semantica exata para o corpo da pagina, a tag main e utilizada nesses casos, na duvida use uma div. -->
     <main>
-        <ul class="topicos">
-            <li>
-                <h2>Inovação</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitllll. </p>
-            </li>
-            <li>
-                <h2>Tecnologia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitl.  </p>
-            </li>
-            <li>
-                <h2>Pessoas</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </li>
-        </ul>
+      <!-- Como falado acima na duvida use uma div, para separar as 
+        coisas, aqui você errou na semantica, lembre-se sempre de buscar saber os conceitos por trás de uma tag html, ele te ajudara a 
+        escolher o melhor caminho, a tag ul correponde a uma lista ordenada isso e comunmente usadas em menus e listas, aqui foi solicitado três container(divs) para receber conteudos, você poder ver como ficou na correção da branch feature/PL/teste-html-css  -->
+      <ul class="topicos">
+        <li>
+          <h2>Inovação</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elitllll. </p>
+        </li>
+        <li>
+          <h2>Tecnologia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elitl. </p>
+        </li>
+        <li>
+          <h2>Pessoas</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </li>
+      </ul>
     </main>
+    <!-- A semantica html do footer está correta, você so deveria ter se 
+      atentado a estilização do mesmo, evite usar posicionamentos absolutos em algumas tags, use somente em casos extremos para fins de exemplificação realizei a correção na branch feature/PL/teste-html-css -->
     <footer>
-        <p>Todos direitos reservado 2022 Circle</p>
+      <p>Todos direitos reservado 2022 Circle</p>
     </footer>
   </body>
-  
-</html> 
 
+</html>
