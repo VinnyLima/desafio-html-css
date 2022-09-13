@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 250px;
+    background: rgb(19,8,204);
+    background: linear-gradient(150deg, rgba(19,8,204,1) 0%, rgba(34,135,207,1) 40%, rgba(0,212,255,1) 100%); 
+}
+
+.header h1{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.header--content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--content .title{
+   display: flex;   
+    align-items: baseline;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header--content .title span{
+   width: 35px;
+    height: 35px;
+    margin-right: 8px;
+   border-radius: 50%;
+   border: 4px solid #fff;
+}
+
+.header--content .title h3{
+    font-size: 1.5rem;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 200;
+    color: #fff;
+
+    
+}
+.header--content nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header--content nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+   
+
+}
+.header--content nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 200;
+    color: #fff;
+    transition: 500ms;
+    
+}
+
+.header--content nav ul li a:hover{
+    color: #cdcd;
+}
+
+.header--content nav ul li img{
+    width: 20px;
+    height: 20px;
+    transition: 500ms;
+}
+
+.header--content nav ul li img:hover{
+    color: #cdcd;
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.topicos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.topicos--item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: 500ms;
+}
+
+.--item--circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgb(19,8,204) ;
+}
+
+.--item--circle h3{
+    font-size: 1.2rem;
+    font-family: 'Roboto' sans-serif;
+    color: rgb(19,8,204);
+    margin-top: 10px; 
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background: rgb(19,8,204);
+    background: linear-gradient(150deg, rgba(19,8,204,1) 0%, rgba(34,135,207,1) 40%, rgba(0,212,255,1) 100%); 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+
+}
+
+footer p{
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 200;   
+    margin-top: 20px;
+}
+
+
+
+
+.localização {
+   
+   margin: 60px ;
+   margin-left: 30px;
+   position: absolute;
+   padding: 0 0 60px 50px;
+  
+    
+}
+
+.localização h3{
+    
+    
+    padding: 0 30px 30px 80px;
+    display: flex;
+    margin: 0 0 20px 0;
+    margin-right: 60px;
+    
+}
+
+.localização p{
+    padding: 0 0px 0px 30px;
+    display: flex;
+     
+}
+
+.Siga h3{
+    padding: 200px 100px 5px 140px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+.img {
+    
+   position: absolute;
+   display: inline-flex;
+   top: 50;
+   padding: 10px 10px 10px 80px;
+   padding-top: 20px;
+   width: 20px;
+   height: 20px;
+   margin: 10px 20px 10px;
+   
+         
+}
+.img ul{
+    padding: 3px;
+    margin: 0px 10px 10px 0
+    
+    
+    
+    
+ }
+.texto { 
+    display: inline-block;
+    padding: 0 0 0 140px;
+    padding-top: 8%;
+    font-size: 12px;
+    
+}
+
+form {
+    margin: 40px;
+    position: absolute;
+    display: block;
+    top: 35%;
+    height: 30px;
+    left: 800px;
+    
+
+}
+form h3{
+    padding: 0px 0px 15px 0px;
+    align-items: center;
+    
+}
+form label {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 5px;
+
+}
+.input {
+    display: block;
+    margin: 0 0 9px;
+    padding: 5px 60px;
+    width: 50%;
+    background-color: darkgrey;
+    border: 0;
+}
+
+.textarea {
+    background-color: darkgrey;
+}
+.input3 {
+    
+    padding-left: 0px;
+    background-color: #fff;
+    border-radius: 0%;
+    font-size: 15px;
+   
+    margin: 5px 0px 30px 0px;
+    width: 30%;
+    
+    
+    
+    
+}
+
+
+   
+
+
