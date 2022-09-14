@@ -7,27 +7,41 @@
     width: 100%;    
     display: flex;
     justify-content: space-between;
-}
-
-.localizacao {
-  
+    text-align: center;
     
 }
 
+.localizacao {
+display: flex;
+width: 172px;
+height: 38px;
+left: 220px;
+top: 100px;
+text-align: center;
 
 
-.localizacao h3{
+
     
     
 }
 
 .localizacao p{
-    
+
+font-style: normal;
+font-weight: 20;
+font-size: 20px;
+line-height: 38px;
+left: 100px;
+text-align: center;
+}
      
 }
 
 .Siga h3{
-   
+   position: absolute;
+    width: 128px;
+    top: 664px;  
+    text-align: center;
     
 }
 .img {
@@ -66,14 +80,22 @@ form {
 
 }
 form h3{
-    padding: 0px 0px 15px 0px;
-    align-items: center;
+    display: flex;
+  
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 0px;
     
 }
 form label {
-    display: block;
-    font-size: 15px;
-    margin: 0 0 5px;
+display: flex;
+padding: 20px 0px 0px 0px;
+
+font-size: 14px;
+color: #000000;
+    
 
 }
 .input {
@@ -86,19 +108,25 @@ form label {
 }
 
 .textarea {
+    padding-left: 30px;
     background-color: darkgrey;
 }
 .input3 {
     
+    display: flex;
+    
     padding-left: 0px;
-    background-color: #fff;
-    border-radius: 0%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    
+    
     font-size: 15px;
    
     margin: 5px 0px 30px 0px;
-    width: 30%;         
-    
+    width: 80px;  
 }
+
 
 
    
